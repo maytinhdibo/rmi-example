@@ -13,7 +13,7 @@ public class Server {
 
             // Load the service
             ToolStudentServer tool = new ToolStudentServer();
-            String res = "rmi://localhost:1410";
+            String res = "rmi://localhost:1410/studentTool";
             // Register with service
             Naming.rebind(res, tool);
             System.out.println("Server is running");
