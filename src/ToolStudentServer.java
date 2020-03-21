@@ -20,7 +20,7 @@ public class ToolStudentServer extends UnicastRemoteObject implements ToolStuden
         fakeData.add(new Student(17020078, "Do Phong", "62CLC", "12/01/1999", "Ha Noi"));
 
         //Find student
-
+        System.out.println("Searching (ID: " + id + ")....");
         Optional<Student> ret = fakeData.stream().filter(student -> student.getNumber() == id).findFirst();
 
         // Return result
