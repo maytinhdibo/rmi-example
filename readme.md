@@ -2,7 +2,7 @@
 ## Linux:
 - Clone this project
 - Run ```chmod +x run.sh```
-- Then ```./run.sh```. You should see "Server started" on terminal screen
+- Then ```./run.sh```. You should see "Server is running" on terminal screen
 - Open new terminal run ```cd src/ && java Client```
 
 The output should should be below:
