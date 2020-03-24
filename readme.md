@@ -1,5 +1,16 @@
-# How to run
-## Linux:
+# Service Oriented Architecture
+## RMI example project
+| Student ID | Fullname         |
+|------------|------------------|
+| 17020076   | Tran Manh Cuong  |
+| 17020077   | Nguyen Ngoc Dang |
+| 17020951   | Do Hong Phong    |
+
+## Source code
+[Github repo](https://github.com/maytinhdibo/rmi-example)
+
+## How to run
+### Linux:
 - Clone this project
 - Run ```chmod +x run.sh```
 - Then ```./run.sh```. You should see "Server is running" on terminal screen
@@ -33,7 +44,7 @@ Please enter student number, type -1 to exit: -1
 Application is closed.
 ```
 
-# Windows
+### Windows
 
 Run following command to start server:
 ```
